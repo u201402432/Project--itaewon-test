@@ -1,0 +1,100 @@
+*:focus { outline:none; }
+
+@font-face {
+    font-family: 'hanna' ;
+    src: url("/itaewon/font/BMHANNA_air.ttf") ;
+}
+
+body{
+    font-family: hanna ;
+    width: auto ;
+    height: auto ;
+    margin:0 ;
+    padding:0 ;
+    
+    background-color: black ;
+    
+}
+
+p{
+    margin:0px ;
+    
+    color: white ;
+    font-size: 20px ;
+    text-align: center ;
+    
+}
+
+h1{
+    position:static; 
+    
+    margin:0;
+}
+
+
+
+.container{
+    position: relative ;
+    width:952px ;
+    height:618px;
+}
+
+.container .main {
+    position:static;
+    width: 100% ;
+    height: 100% ;
+    background-image: url("/itaewon/img/itaewon_test.png") ;
+}
+
+.container .question{
+    width: 100% ;
+    height: auto ;
+    text-align: center; 
+    
+}
+
+.wrapper{
+    position: relative ;
+    top: 37% ;
+    display: grid;
+    grid-template-columns:50% 50% ;
+}
+
+.wrapper .left{
+    background-color: rgba( 255, 255, 255, 0 );
+    color:white;
+    font-size: 20px;
+    text-align: center ;
+}
+
+.wrapper .left button{
+    width: 300px;
+    height: 116px;
+    background-color: rgba( 255, 255, 255, 0 );
+    border:0px ;
+    
+    color:white;
+    font-size: 25px;
+    font-family: 'hanna';
+
+    cursor:pointer    
+}
+
+.wrapper .right{
+    background-color: rgba( 255, 255, 255, 0 );
+    color:white;
+    font-size: 20px;
+    text-align: center ;
+}
+
+.wrapper .right button{
+    width: 300px;
+    height: 116px;
+    background-color: rgba( 255, 255, 255, 0 );
+    border:0px ;
+    
+    color:white;
+    font-size: 25px;
+    font-family: 'hanna';
+    cursor:pointer
+}
